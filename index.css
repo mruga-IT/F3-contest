@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  background-color: #000;
+  color: #fff;
+  margin-left: 5%;
+  font-family: "Libre Baskerville", serif;
+}
+.forms {
+  display: flex;
+  flex-flow: row;
+}
+.group {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 29%;
+  margin-right: 30px;
+}
+.group input {
+  background-color: transparent;
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid white;
+  color: white;
+}
+.adding {
+  position: absolute;
+  top: 150px;
+}
+.adding button {
+  padding: 8px;
+}
+
+.container {
+  margin-top: 160px;
+}
+.no_of_emp {
+  font-weight: lighter;
+  color: #626262;
+  display: block;
+}
+.error {
+  color: red;
+  display: none;
+}
+.success {
+  color: green;
+  display: none;
+}
+.box-container {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+.details {
+  margin-top: 10px;
+  border: 1px solid white;
+  font-weight: 300;
+  width: 450px;
+  min-width: 300px;
+  padding: 0.5rem;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 10px -10px 10px 1px rgba(0, 0, 255, 0.2);
+}
+.details span {
+  margin-left: 10px;
+}
+.del {
+  padding: 0.5rem;
+  height: 30px;
+  width: fit-content;
+  border: 1px solid #f6efef;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0.5px rgba(252, 252, 255, 0.832);
+}
+.box-insider {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
